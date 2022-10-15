@@ -805,7 +805,7 @@ RclPic
 #rdiv
 read
 readrgb
-readwav
+#readwav
 realroot
 rectangle
 rectangle_plein
@@ -1038,7 +1038,7 @@ when
 with_sqrt
 write
 writergb
-writewav
+#writewav
 xcas_mode
 XHMS
 xor
