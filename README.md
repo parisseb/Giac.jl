@@ -1,14 +1,14 @@
 # Giac
 
-Julia interface to the [Giac computer algebra system](http://www-fourier.ujf-grenoble.fr/~parisse/giac.html).
+Julia interface to the [Giac computer algebra system](http://www-fourier.univ-grenoble-alpes.fr/~parisse/giac.html).
 
 ## Installation
-Giac/Xcas has to be [installed](https://www-fourier.ujf-grenoble.fr/~parisse/install_en) first. 
+Giac/Xcas has to be [installed](https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en) first. 
 Then, in a Julia session, type:
 
 ```julia
 using Pkg
-Pkg.add(PackageSpec(url="https://github.com/HaraldHofstaetter/Giac.jl"))
+Pkg.add(PackageSpec(url="https://github.com/parisseb/Giac.jl"))
 ```
 
 ## Examples
