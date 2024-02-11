@@ -410,6 +410,7 @@ hessian
 heugcd
 hexagone
 hexprint
+#gen _hilbert(const gen & g,GIAC_CONTEXT);
 hilbert
 histogram
 HMSX
