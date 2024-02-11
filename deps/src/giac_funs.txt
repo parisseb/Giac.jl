@@ -411,7 +411,7 @@ heugcd
 hexagone
 hexprint
 #gen _hilbert(const gen & g,GIAC_CONTEXT);
-hilbert
+#hilbert
 histogram
 HMSX
 hold
