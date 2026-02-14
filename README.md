@@ -1,7 +1,7 @@
 # Giac
 
 Julia interface to the [Giac computer algebra system](http://www-fourier.univ-grenoble-alpes.fr/~parisse/giac.html). 
-Should work on Linux-based systems, including WSL for Windows users. Mac needs some adaptation in deps/src/Makefile, INCLUDE should be /Applications/usr/include and LIBS should list /Applications/usr/lib as well as /Applications/usr/lib_[architecture], and the library should have dylib extension instead of so.
+Should work on Linux-based systems, including inside [WSL](https://learn.microsoft.com/windows/wsl/install) for Windows users. Mac is not yet supported, it requires changes in deps/src/Makefile, INCLUDE should be /Applications/usr/include and LIBS should list /Applications/usr/lib as well as /Applications/usr/lib_[architecture], and the library should have dylib extension instead of so.
 
 ## Installation
 Giac/Xcas has to be [installed](https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en) first. 
