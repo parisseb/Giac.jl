@@ -17,7 +17,11 @@ using Giac
 factor(x^4-1)
 ```
 On Linux x86_64, if you get an error like
-leave Julia, and from a terminal before running Julia run
+```
+ERROR: InitError: could not load library "/home/parisse/.julia/packages/Giac/WH00q/src/../deps/lib/libgiac_c.so"
+/lib/x86_64-linux-gnu/libecm.so.1: undefined symbol: __gmpn_add_nc
+```
+leave Julia, then from a terminal, before running julia, run
 ```
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgmp.so.10
 ```
